@@ -12,15 +12,31 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 12px;
-  background-color: rgb(241, 107, 5);
+  background-color: #e6edf5;
   font-family: typographys.$typography-main;
   font-size: 1.3rem;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 32rem;
+    padding: 3rem;
+  }
 }
 
-.container {
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__photo {
+    border-radius: 50%;
+  }
+}
+
+.text {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  width: 32rem;
-  padding: 3rem;
+  gap: 0.2rem;
 }
