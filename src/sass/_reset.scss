@@ -1,9 +1,14 @@
 body {
   margin: 0;
+  height: 100vh;
 }
 
 *,
 ::after,
 ::before {
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
 }

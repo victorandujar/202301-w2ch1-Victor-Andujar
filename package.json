@@ -16,5 +16,9 @@
     "husky": "^8.0.0",
     "parcel": "^2.8.2",
     "rimraf": "^4.0.7"
+  },
+  "dependencies": {
+    "@fontsource/manrope": "^4.5.12",
+    "font-awesome": "^4.7.0"
   }
 }
